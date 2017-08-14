@@ -1,0 +1,26 @@
+{
+  "name": "hoge",
+  "version": "0.0.1",
+  "author": "hoge",
+  "compilerOptions": {
+    "baseUrl": "./src",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "removeComments": false,
+    "preserveConstEnums": true,
+    "noImplicitAny": false,
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+    "noEmitOnError": true,
+    "target": "es2016",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "sourceMap": false
+  },
+  "include": [
+    "src/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
